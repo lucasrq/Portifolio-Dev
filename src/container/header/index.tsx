@@ -14,6 +14,7 @@ function Header(){
             </div>   
 
             <div>
+            <Links size='big' color="primaria" href='#'>Inicio</Links>
             <Links size='big' color="primaria" href='#'>Sobre</Links>
             <Links size='big' color="primaria" href='#'>Projetos</Links>
             <Links size='big' color="primaria" href='#'>Contato</Links>

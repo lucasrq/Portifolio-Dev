@@ -11,7 +11,7 @@ const LinksStyles = styled.a<Props>`
     border: none;
     cursor:pointer;
     text-decoration:none;
-    padding-right:20px;
+    margin-right:20px;
     line-height:50px;
 
     &:hover{

@@ -16,10 +16,11 @@ export const ContainerHeader = styled.div`
         
         .HeaderProfile {
         display: flex;
-
+        
         img {
             width: 50px;
             height: 50px;
+            margin-right:15px;
         }
         
         h3 {

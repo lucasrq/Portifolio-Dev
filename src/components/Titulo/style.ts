@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Props } from '.'
-const TitleStyles = styled.a<Props>`
-    font-size:${(props) => props.size == 'small' ? '48px' : '27px' };
+const TitleStyles = styled.h3<Props>`
+    font-size:${(props) => props.size == 'small' ? '58px' : '27px' };
     color:${Props => Props.color == 'primaria' ? '#fffffe' : '#0f0e17'};
     background-color:none;
     text-decoration:none;
