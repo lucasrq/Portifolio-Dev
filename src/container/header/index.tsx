@@ -8,13 +8,13 @@ function Header(){
     <>
     <Container>
         <ContainerHeader>
+        
             <div className='HeaderProfile'>
             <img src={Cat} alt="Cats" />
             <Title size='big' color='primaria'>Lucas Rodrigues</Title>
             </div>   
 
             <div>
-            <Links size='big' color="primaria" href='#'>Inicio</Links>
             <Links size='big' color="primaria" href='#'>Sobre</Links>
             <Links size='big' color="primaria" href='#'>Projetos</Links>
             <Links size='big' color="primaria" href='#'>Contato</Links>

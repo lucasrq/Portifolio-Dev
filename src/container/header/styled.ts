@@ -6,7 +6,7 @@ export const Container = styled.header`
     justify-content:center;
     align-items:center;
     width:100%;
-    margin-top:50px;
+    margin-top:40px;
 `
 export const ContainerHeader = styled.div`
 @media screen and (min-width: 1025px) {
@@ -52,17 +52,16 @@ export const ContainerHeader = styled.div`
             }
         }
 }
-
 @media screen and (max-width: 601px) {
-    
-        justify-content:space-between;
         width:65%;
+        margin-bottom:20px;
         .HeaderProfile{
             display:flex;
             flex-direction:column;
             justify-content:center;
             align-items:center;
             text-align:center;
+            
                 img{
                     width:50px;
                     height:50px;

@@ -1,6 +1,7 @@
 import About from "./container/about"
 import Header from "./container/header"
 import Inicio from "./container/init"
+import SkillsTech from "./container/SkillsTech"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Inicio/>
       <About/>
+      <SkillsTech/>
     </>
   )
 }
