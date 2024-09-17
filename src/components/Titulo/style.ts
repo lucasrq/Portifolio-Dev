@@ -4,7 +4,6 @@ const TitleStyles = styled.a<Props>`
     font-size:${(props) => props.size == 'small' ? '48px' : '27px' };
     color:${Props => Props.color == 'primaria' ? '#fffffe' : '#0f0e17'};
     background-color:none;
-    padding-left:20px;
     text-decoration:none;
     padding-right:20px;
     line-height:50px;

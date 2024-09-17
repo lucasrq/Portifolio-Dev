@@ -1,6 +1,6 @@
 import Links from '../../components/Links'
 import { Container, ContainerHeader } from './styled'
-import Cat from '../../../public/cat.jpg'
+import Cat from '../../../public/Cat.png'
 import Title from '../../components/Titulo'
  
 function Header(){
@@ -14,11 +14,10 @@ function Header(){
             </div>   
 
             <div>
-            <Links size='big' color="primaria" url='../..'>Sobre</Links>
-            <Links size='big' color="primaria" url='../..'>Skills</Links>
-            <Links size='big' color="primaria" url='../..'>Contato</Links>
+            <Links size='big' color="primaria" href='#'>Sobre</Links>
+            <Links size='big' color="primaria" href='#'>Projetos</Links>
+            <Links size='big' color="primaria" href='#'>Contato</Links>
             </div>
-           
         </ContainerHeader>
     </Container>
     </>

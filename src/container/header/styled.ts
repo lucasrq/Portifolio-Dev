@@ -1,8 +1,6 @@
 import { styled } from "styled-components";
 
-type props ={
-    line?: string
-}
+
 export const Container = styled.header`
     display:flex;
     justify-content:center;
@@ -10,7 +8,7 @@ export const Container = styled.header`
     width:100%;
     margin-top:50px;
 `
-export const ContainerHeader = styled.div<props>`
+export const ContainerHeader = styled.div`
 @media screen and (min-width: 1025px) {
         display:flex;
         justify-content:space-between;
@@ -43,6 +41,7 @@ export const ContainerHeader = styled.div<props>`
             img{
                 width:50px;
                 height:50px;
+                background:none;
             }
             h3{
                 text-align:left;
