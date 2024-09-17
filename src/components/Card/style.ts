@@ -4,6 +4,7 @@ import { Props } from ".";
 const CardSkills = styled.div<Props>`
     min-width:140px;
     background-color:#232946;
+    border-radius:15%;
     display:flex;
     height:140px;
     padding:20px;

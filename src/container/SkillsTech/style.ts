@@ -28,7 +28,7 @@ export const Container = styled.section`
         animation-play-state:paused;    
     }
         .slice{
-            animation: ${slideLeft} 4s infinite linear;
+            animation: ${slideLeft} 10s infinite linear;
             display:flex;
            
         }
