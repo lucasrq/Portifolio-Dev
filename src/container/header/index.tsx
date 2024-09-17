@@ -1,6 +1,6 @@
 import Links from '../../components/Links'
 import { Container, ContainerHeader } from './styled'
-import Cat from '../../../public/Cat.png'
+import Cat from '../../../public/gogoneee_Prancheta 1.png'
 import Title from '../../components/Titulo'
  
 function Header(){
