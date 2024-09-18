@@ -15,11 +15,15 @@ export const ContainerHeader = styled.div`
 }    
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-       
         width:65%;
 }
 
 @media screen and (max-width: 601px) {
-        width:65%;
+        width:75%;
+        h3{
+                text-align:left;
+                padding:0;
+                margin-bottom:15px;
+        }
 }
 `
