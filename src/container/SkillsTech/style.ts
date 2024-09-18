@@ -31,6 +31,10 @@ export const Container = styled.section`
             animation: ${slideLeft} 10s infinite linear;
             display:flex;
            
+            &:hover > :not(:hover){
+                opacity:.4;
+                transform:scale(0.9)
+            }
         }
     }
     .Left{

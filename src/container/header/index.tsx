@@ -14,7 +14,7 @@ function Header(){
             <Title size='big' color='primaria'>Lucas Rodrigues</Title>
             </div>   
 
-            <div>
+            <div className='Links'>
             <Links size='big' color="primaria" href='#'>Sobre</Links>
             <Links size='big' color="primaria" href='#'>Projetos</Links>
             <Links size='big' color="primaria" href='#'>Contato</Links>

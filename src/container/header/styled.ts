@@ -13,20 +13,24 @@ export const ContainerHeader = styled.div`
         display:flex;
         justify-content:space-between;
         width:65%;
-        
+        .Links{
+            text-align:center;
+            align-items:center;
+            display:flex;
+        }
         .HeaderProfile {
         display: flex;
         
         img {
-            width: 50px;
-            height: 50px;
+            width: 100px;
+            height: 100px;
             margin-right:15px;
         }
         
         h3 {
             text-align: left;
             color: #fffffe;
-            line-height: 50px;
+            line-height: 100px;
         }
     }
 }    
@@ -35,6 +39,11 @@ export const ContainerHeader = styled.div`
         display:flex;
         justify-content:space-between;
         width:65%;
+        .Links{
+            text-align:center;
+            align-items:center;
+            display:flex;
+        }
         
         .HeaderProfile{
         display:flex;
@@ -55,6 +64,12 @@ export const ContainerHeader = styled.div`
 @media screen and (max-width: 601px) {
         width:65%;
         margin-bottom:20px;
+
+        .Links{
+            text-align:center;
+            align-items:center;
+            display:flex;
+        }
         .HeaderProfile{
             display:flex;
             flex-direction:column;
