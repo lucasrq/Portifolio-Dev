@@ -16,7 +16,7 @@ function Inicio({id}:Props){
                 <div className="LinkStyle">
                     <Ancora href="https://github.com/lucasrq" target='_blank'><Icon icon={faGithub} /></Ancora>
                     <Ancora href="https://www.linkedin.com/in/lucasrrq/" target='_blank'><Icon icon={faLinkedin} /></Ancora>
-                    <Ancora href="mailto:lucasroque545@gmail.com" target='_blank'><Icon icon={faEnvelope} /></Ancora>
+                    <Ancora href="mailto:lucasroque545@gmail.co" target='_blank'><Icon icon={faEnvelope} /></Ancora>
                 </div>
                 
         </Container>
