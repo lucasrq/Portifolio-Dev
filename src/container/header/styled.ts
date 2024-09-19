@@ -7,12 +7,17 @@ export const Container = styled.header`
     align-items:center;
     width:100%;
     margin-top:40px;
+    
 `
 export const ContainerHeader = styled.div`
 @media screen and (min-width: 1025px) {
         display:flex;
         justify-content:space-between;
         width:65%;
+        position:fixed;
+        padding-top:60px;
+        background-color:#0f0e17;
+        z-index:1;
         .Links{
             text-align:center;
             align-items:center;

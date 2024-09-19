@@ -15,9 +15,9 @@ function Header(){
             </div>   
 
             <div className='Links'>
-            <Links size='big' color="primaria" href='#'>Sobre</Links>
-            <Links size='big' color="primaria" href='#'>Projetos</Links>
-            <Links size='big' color="primaria" href='#'>Contato</Links>
+            <Links size='big' color="primaria" href='#Init'>Sobre</Links>
+            <Links size='big' color="primaria" href='#projetos'>Projetos</Links>
+            <Links size='big' color="primaria" href='#footer'>Contato</Links>
             </div>
         </ContainerHeader>
     </Container>

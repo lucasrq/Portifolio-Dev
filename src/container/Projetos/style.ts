@@ -12,7 +12,7 @@ export const Container = styled.section`
         height:370px;
         display: grid;
         grid-template-columns:20% 80%;
-        gap: 20px;
+        gap: 40px;
         padding: 20px;
         button{
           padding:5px;

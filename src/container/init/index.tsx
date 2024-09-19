@@ -1,19 +1,22 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Title from "../../components/Titulo"
-import { Container, Icon } from "./style"
+import { Ancora, Container, Icon } from "./style"
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+type Props= {
+    id: string;
+}
 
-function Inicio(){
+function Inicio({id}:Props){
     return(
-        <Container>
-                <Title  color="primaria" size="big">Boas vindos Visitante </Title>
+        <Container id={id}>
+                <Title   color="primaria" size="big">Boas vindos Visitante </Title>
                 <Title color="primaria" size="small">Meu nome é Lucas </Title>
                 <Title  color="primaria" size="big">Desenvolvedor Full Stack</Title>
 
                 <div className="LinkStyle">
-                    <Icon icon={faGithub} />
-                    <Icon icon={faLinkedin} />
-                    <Icon icon={faEnvelope} />
+                    <Ancora href="https://github.com/lucasrq" target='_blank'><Icon icon={faGithub} /></Ancora>
+                    <Ancora href="https://www.linkedin.com/in/lucasrrq/" target='_blank'><Icon icon={faLinkedin} /></Ancora>
+                    <Ancora href="mailto:lucasroque545@gmail.com" target='_blank'><Icon icon={faEnvelope} /></Ancora>
                 </div>
                 
         </Container>

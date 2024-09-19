@@ -10,7 +10,7 @@ export const Container = styled.header`
     align-items:center;
     width:100%;
     color:#fff;
-    margin:90px auto;
+    margin:90px auto; 
 }    
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -46,6 +46,9 @@ export const Container = styled.header`
 
 
     .LinkStyle{
+        a{
+        text-decoration:none;
+    }
     @media screen and (min-width: 1025px) {
     font-size:30px;
     padding:20px;
@@ -73,4 +76,7 @@ export const Container = styled.header`
 export const Icon = styled(FontAwesomeIcon)`
     font-size:30px;
     padding:20px;
+`
+export const Ancora = styled.a`
+    color:white;
 `

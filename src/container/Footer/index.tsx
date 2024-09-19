@@ -1,8 +1,10 @@
 import Container from "./style"
-
-function Footer(){
+type Props= {
+    id?: string; // A prop id é opcional
+  }
+function Footer({id}:Props){
     return(
-        <Container>
+        <Container id={id}>
         <div className="ContainerFooter">
             <div>
             <a href='mailto:lucasroque545@gmail.com' target="_blank">Email</a>

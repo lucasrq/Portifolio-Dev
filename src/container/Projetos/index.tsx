@@ -5,16 +5,19 @@ import ifood from '../../../public/ifoodWeb.png'
 import sport from '../../../public/EBACSPORT.png'
 import Button from "../../components/Botton";
 import Paragraph from "../../components/Paragrafos";
-function Projetos(){
+type Props={
+    id: string;
+}
+function Projetos({id}:Props){
     return(
-    <Container>
+    <Container id={id}>
         <div className="Title">
             <Title color="primaria" size="big">Projetos</Title>
         </div>
         <div className="ProjectList">        
         <CardProject 
             imagem={ifood}
-            nome="Projeto 1" 
+            nome="" 
             linkDeploy="https://efood-yel6.vercel.app" 
             linkGit="https://github.com/lucasrq/Efood" 
         />
@@ -24,7 +27,7 @@ function Projetos(){
             <Paragraph size={"ParagraphPrincipal"} color={"GreyTitle"}>Desenvolvi, em colaboração com um professor da EBAC, um e-commerce de roupas utilizando React com TypeScript, Redux e Styled Components. O projeto focou em criar uma interface intuitiva e responsiva, facilitando a navegação pelas coleções. O uso de TypeScript garantiu uma tipagem rigorosa, aprimorando a robustez e manutenção do código. Com Redux, a gestão de estado proporcionou uma experiência fluida, especialmente no carrinho de compras e nas interações. A estilização modular com Styled Components permitiu uma fácil adaptação do design. O resultado é uma aplicação escalável e funcional, que oferece uma experiência de compra prática e agradável.</Paragraph>    
         <CardProject 
             imagem={sport} 
-            nome="Projeto 1" 
+            nome="" 
             linkDeploy="https://ebac-sports-5zyq.vercel.app" 
             linkGit="https://github.com/lucasrq/ebac_sports" 
         />
