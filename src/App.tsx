@@ -1,4 +1,5 @@
 import About from "./container/about"
+import Footer from "./container/Footer"
 import Header from "./container/header"
 import Inicio from "./container/init"
 import Projetos from "./container/Projetos"
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <SkillsTech/>
       <Projetos/>
+      <Footer/>
     </>
   )
 }

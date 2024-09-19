@@ -30,7 +30,7 @@ function Projetos(){
         />
         </div>
         <div className="LinkGit">
-            <Button link="https://github.com/lucasrq/ebac_sports" >
+            <Button link="https://github.com/lucasrq" >
                 GitHub
             </Button>
 

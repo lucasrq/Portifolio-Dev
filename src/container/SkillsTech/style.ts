@@ -96,7 +96,7 @@ export const Container = styled.section`
     overflow-y:hidden;
 
     .Right{
-        height:200px;
+        height:40px;
         overflow-x:hidden;
         justify-content: space-around;
         
@@ -152,20 +152,16 @@ export const TitleContainer = styled.div`
     }
     }
     @media screen and (max-width: 601px){
-    text-align:left;
-    justify-content:center;
-    align-items:center;
-    width:65%;
-    color:#fff;
     margin:10px auto;
-    width:100%;
+    width:350px;
+    
     h3{
-        text-align:left;
-        padding:0;
-        margin-bottom:0;
-        margin-top:0;
+        text-align:center;
+        padding:40px 0;
+        margin: 0 auto;
         display:flex;
         justify-content:center;
+        align-items:center;
     }
     }
 
