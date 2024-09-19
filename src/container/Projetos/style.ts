@@ -2,14 +2,14 @@ import {  styled } from "styled-components";
 
 export const Container = styled.section`
 @media screen and (min-width: 1025px) {
-  width:100%;
-    max-width:1211px;
+    width:100%;
+    max-width:1111px;
     margin:0 auto;
     .ProjectList{
         align-items:center;
         padding-top:20px;
         width:100%;
-        height:350px;
+        height:370px;
         display: grid;
         grid-template-columns:20% 80%;
         gap: 20px;
