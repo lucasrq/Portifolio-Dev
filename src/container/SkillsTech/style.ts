@@ -8,15 +8,6 @@ export const slideLeft = keyframes`
     transform: translateX(-100%);
   }
 `;
-export const slideDowm = keyframes`
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-100%);
-  }
-`;
-
 
 export const Container = styled.section`
 @media screen and (min-width: 1025px) {
@@ -144,6 +135,10 @@ export const TitleContainer = styled.div`
     width:65%;
     color:#fff;
     margin:90px auto;
+    h3{
+        margin-bottom:-80px;
+        margin-top:-50px;
+    }
     @media screen and (min-width: 601px) and (max-width: 1024px){
     text-align:left;
     justify-content:center;
@@ -151,6 +146,10 @@ export const TitleContainer = styled.div`
     width:65%;
     color:#fff;
     margin:40px auto;
+    h3{
+        margin-bottom:0;
+        margin-top:0;
+    }
     }
     @media screen and (max-width: 601px){
     text-align:left;
@@ -159,10 +158,14 @@ export const TitleContainer = styled.div`
     width:65%;
     color:#fff;
     margin:10px auto;
+    width:100%;
     h3{
         text-align:left;
         padding:0;
-
+        margin-bottom:0;
+        margin-top:0;
+        display:flex;
+        justify-content:center;
     }
     }
 

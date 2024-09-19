@@ -10,11 +10,25 @@ export const ButtonStyle = styled.button<Props>`
     min-height:40px;
     border:none;
     cursor:pointer;
-
+    button{
+        border:none;
+        background-color:#ff8906;
+        color:#fffffe;
+    }
+    a{
+        text-decoration:none;
+    }
     &:focus{
         background-color:#d17710;
+        button{
+            background-color:#d17710;
+        }
     }
     &:hover{
         background-color:#d17710;
+        button{
+            background-color:#d17710;
+
+}
     }
 `

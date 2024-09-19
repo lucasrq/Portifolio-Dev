@@ -6,7 +6,7 @@ const CardSkills = styled.div<Props>`
     background-color:#232946;
     border-radius:15%;
     display:flex;
-    height:140px;
+    height:150px;
     padding:20px;
     padding-bottom:50px;
     justify-content:space-between;
