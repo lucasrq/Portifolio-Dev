@@ -3,7 +3,7 @@ import {  styled } from "styled-components";
 export const Container = styled.section`
 @media screen and (min-width: 1025px) {
   width:100%;
-    max-width:1346px;
+    max-width:1211px;
     margin:0 auto;
     .ProjectList{
         align-items:center;
