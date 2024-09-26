@@ -9,7 +9,7 @@ type Props= {
 function Inicio({id}:Props){
     return(
         <Container id={id}>
-                <Title   color="primaria" size="big">Boas vindos Visitante </Title>
+                <Title   color="primaria" size="big">Boas vindas Visitante </Title>
                 <Title color="primaria" size="small">Meu nome é Lucas </Title>
                 <Title  color="primaria" size="big">Desenvolvedor Full Stack</Title>
 
